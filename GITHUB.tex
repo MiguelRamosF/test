@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage[latin1]{inputenc}   
+\usepackage[francais]{babel} 
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{color}
+\usepackage{array}
+\usepackage{hyperref}
+
+
+
+\begin{document}
+
+\hypersetup{pdfborder={0 0 0},colorlinks} 
+\section{Rejoindre notre GIT}
+
+Vous devez télécharger le logiciel GIT GUI sur votre ordinateur aller sur ce site : 
+\url{https://git-scm.com/downloads} \\
+
+Assurez vous d'avoir accepter l'invitation  pour rejoindre le GIT\\
+
+Une fois installer aller sur le site de GIT dans les paramètre de votre compte, aller dans SSH keys et ajouter votre clé associer à votre PC (cette clé se trouve dans le logiciel GIT GUI - help - SSH keys)\\
+
+Créer un dossier n'importe ou sur votre ordinateur, ce dossier sera l'endroit où vous aller cloner les fichiers du GIT \\
+
+Clic droit sur le dossier - git bash here \\
+
+executer la commande : git init (permet de créer un dossier git procédure à faire une seul fois) \\
+
+executer la commande : git remote add origin https://github.com/ESILV-CFR-2016/test \\
+
+Pour s'assurer que ca marche pour tout le monde chacun doit faire la procédure qui suit : \\
+
+executer la commande : touch VOTRE\_NOM.txt (cette commande crée un fichier txt)\\
+
+executer la commande : git add . (permet d'ajouter le dernier fichier modifier/ajouter à la liste pour le commit)\\
+
+executer la commande : git commit -m "mon premier commit" (permet de faire un commit) \\
+
+executer la commande : git push origin master (permet de lancer sur le serveur votre branche master) \\
+
+
+remarque : vous pouvez faire "n'importe quoi" il s'agit d'un dossier test. 
+Une fois que tout le monde sera au point on créera un dossier projet 
+
+
+\end{document}
